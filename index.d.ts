@@ -8446,8 +8446,8 @@ export type Clipboard = ClipboardStatic
 export var DatePickerAndroid: DatePickerAndroidStatic
 export type DatePickerAndroid = DatePickerAndroidStatic
 
-export var Geolocation: GeolocationStatic
-export type Geolocation = GeolocationStatic
+// export var Geolocation: GeolocationStatic
+// export type Geolocation = GeolocationStatic
 
 /** http://facebook.github.io/react-native/blog/2016/08/19/right-to-left-support-for-react-native-apps.html */
 export var I18nManager: I18nManagerStatic
