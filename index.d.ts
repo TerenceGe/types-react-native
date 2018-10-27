@@ -418,6 +418,11 @@ export interface PointProperties {
     y: number
 }
 
+export interface PointPropType {
+    x: number
+    y: number
+}
+
 export interface Insets {
     top?: number
     left?: number
@@ -8623,7 +8628,7 @@ export namespace addons {
 //
 export var ColorPropType: React.Requireable<any>
 export var EdgeInsetsPropType: React.Requireable<any>
-export var PointPropType: React.Requireable<any>
+// export var PointPropType: React.Requireable<any>
 
 declare global {
     // function require(name: string): any;
